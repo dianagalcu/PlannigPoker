@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #330072 0%, #1f0d3f 100%)
+    no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #f6f7fc;
+  gap: 20px;
+}
+
+
+input {
+  border-radius: 20px;
+  border-color: #bb65ff;
+  padding: 3px;
+  padding: 10px 24px;
+}
+
+input[type="radio"] {
+    border-radius: 10px;
+    border-color: #bb65ff;
+    padding: 5px;
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+  }
+
+button {
+  background-color: #f6f7fc;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 24px;
+  color: #330072;
+  cursor: pointer;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-control.horizontal {
+    flex-direction: row;
+}
+
+.adminForm {
+    background: #1F0D3F;
+    border: 1px solid #BB65FF;
+    box-shadow: 0px 0px 15px #6429CD, inset 0px 0px 20px rgba(189, 189, 255, 0.2);
+    border-radius: 25px;
+    width: 514px;
+}
